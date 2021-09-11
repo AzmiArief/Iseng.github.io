@@ -1,0 +1,254 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+     <title>Blog</title>
+     <style type="text/css">
+      @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+      .navbar-expand-lg{
+        background: #322E89;
+      }
+          p.navbar-brand{
+               font-size: 40px;
+          }
+          ul.navbar-nav{
+               text-align: right;
+          }
+          li{
+               text-decoration: none;
+               padding-right: 30px;
+               font-size: 20px;               
+          }
+          .nav-item a{
+               color: black;
+          }
+          .nav-item a:hover{
+               color: white;
+          }
+          .carousel-item{
+            height: 500px;
+            background: no-repeat center center scroll;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+            background-size: cover;
+          }
+          a{
+            text-decoration: none;
+          }
+          .fa-search{
+            text-decoration: none;
+            color: white;
+          }
+          .header{
+      background-color: green;
+      padding: 10px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav-menu{
+      background-color: #050202;
+      overflow: hidden;
+    }
+    .nav-menu a{
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration:none;
+    }
+    .nav-menu a:hover{
+      background-color: white;
+      color: green;
+    }
+    .ColumnA, .ColumnB, .ColumnC, .ColumnD{
+      background-color: white;
+      float: left;
+      width: 31%;
+      padding:15px;
+      text-align: justify;
+
+    }
+
+    @media screen and (max-width: 500px){
+      .ColumnA, .ColumnB, .ColumnC, .ColumnD{
+        width: 50%;
+      }
+    }
+    @media screen and (max-width: 200px){
+      .ColumnA, .ColumnB, .ColumnC, .ColumnD{
+        width: 50%;
+      }
+    }
+    .footer{
+      background-color: orange;
+      padding: 15px;
+      color: white;
+      text-align: center;
+
+    }
+     </style>
+    </head>
+    <body>
+   <nav class="navbar navbar-expand-lg">
+    <div class="container"> 
+      <p href="#" class="navbar-brand text-white">Nyoba Doang</p>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li> 
+         </ul>
+          <form action=" #" class="form-inline ml-auto">
+            <input style="border: 1px solid black;" type="text" class="form-control mr-sm-2" placeholder="Cari...">
+            <a href="" class="fas fa-search"></a>
+          </form>
+      </div>
+      </nav>
+      <header>
+     <div id="slideshow" class="carousel slider" data-ride="carousel">
+       <ol class="carousel-indicators">
+        <li data-target="slideshow" data-slide="0" class="active"></li>
+        <li data-target="slideshow" data-slide="1"></li>
+        <li data-target="slideshow" data-slide="2"></li>
+       </ol>
+          <div class="carousel-inner">
+        <div class="carousel-item active">
+      <img src="../images/slider.jpg" alt="Slider" title="slider 1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../images/slider-2.jpg" alt="Slider 2" title="slider 2" class="d-block w-100">
+      <div class="carousel-caption d-m-block">
+      <h2>-Don't Give Up!-</h2>
+      <p>Keep open Your Eyes, Keep Running, Because Success Is Waiting In Front Of You</p>
+    </div>
+    </div>
+      <div class="carousel-item">
+      <img src="../images/slider-3.jpg" alt="Slider 3" title="slider 3" class="d-block w-100">
+      <div class="carousel-caption d-m-block text-success">
+      <h2>-Always Pray To Our God Allah SWT-</h2>
+      <p><b>Because Allah Always Watching You And Allah Always Knows What Kind Of Process That You Are Going Through. And Allah Is Going To Help You By Giving You The Easiest Way If You Always pray To Allah SWT.</b></p>
+       </div>
+       </div>
+      <a href="#slideshow" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#slideshow" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+         </div>
+      </div>
+    </header>
+    <section class="py-5 bg-dark text-white">
+     <div class="container">
+      <h1 class="display-5">Azmi Arief - <small>Web Developer With 2 Months Experience</small></h1>
+      <p class="lead">"Everyone Can Be Success."</p>
+      <h1 class="display-5">My Experience</h1>
+        <p class="lead">I started to studied about Web in RPL Class When 12 January 2020. And i met with Mr.Arya, He is my teacher he had a position as CIO in my school. He is a very good Teacher he like to help us, tell his experience, stories, give us motivations to make us be better person. and he cares about us, its my first time to meet a person like him.</p>
+       </div>  
+    </section>
+    <section class="py-5 text-white bg-danger">
+
+      <div class="col-lg-8 col-sm-12 margin-top-10">
+          <div class="card card-success">
+            <div class="card-header card-header-success bg-success text-white">
+              <h3 class="m-0"><i class="fas fa-search"></i>List Materi</h3>
+            </div>
+            <div class="card-body">
+              <div class="table-reponsive">
+                <table class="mb-0 table table-bordered table-hover table-striped">
+                <tr class="bg-dark text-white">
+                  <th class="text-center">No</th>
+                  <th class="text-left">Materi</th>
+                </tr>
+                <tr>
+                  <td class="text-center">1.</td>
+                  <td class="text-left"><b>Materi HTML</b></td>
+                  <td class="text-center"><button class="btn btn-sm btn-primary"><i class="fas fa-search"></i>Klik Disini</button></td>
+                </tr>
+                <tr>
+                  <td class="text-center">2.</td>
+                  <td class="text-left"><b>Materi CSS</b></td>
+                  <td class="text-center"><button class="btn btn-sm btn-primary"><i class="fas fa-search"></i>Klik Disini</button></td>
+                </tr>
+                <tr>
+                  <td class="text-center">3.</td>
+                  <td class="text-left"><b>Materi Bootstrap</b></td>
+                  <td class="text-center"><button class="btn btn-sm btn-primary"><i class="fas fa-search"></i>Klik Disini</button></td>
+                </tr>
+                <tr>
+                  <td class="text-center">4.</td>
+                  <td class="text-left"><b>Materi JAVASCRIPT</b></td>
+                  <td class="text-center"><button class="btn btn-sm btn-primary"><i class="fas fa-search"></i>Klik Disini</button></td>
+                </tr>
+                <tr>
+                  <td class="text-center">5.</td>
+                  <td class="text-left"><b>Materi JQUERY</b></td>
+                  <td class="text-center"><button class="btn btn-sm btn-primary"><i class="fas fa-search"></i>Klik Disini</button></td>
+                </tr>
+                 <tr>
+                  <td class="text-center">6.</td>
+                  <td class="text-left"><b>TEST</b></td>
+                  <td class="text-center"><button class="btn btn-sm btn-primary"><i class="fas fa-search"></i>Klik Disini</button></td>
+                </tr>
+              </table>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section>
+      <div class="header">
+    <h2 style="color: white">BERITA TERBARU! </h2>
+  </div>
+    
+  </div>
+  <div class="row">
+    <div class="berita1 text-center">
+      <h2>REMAJA MELAKUKAN AKSI TAWURAN</h2>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  <div class="berita2 text-center">
+      <h2>BEGAL KEMBALI BERAKSI!!</h2>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  <div class="berita3 text-center">
+      <h2>COVID-19 MENGGANAS!!</h2>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  <div class="berita4 text-center">
+      <h2>NEW NORMAL</h2>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
